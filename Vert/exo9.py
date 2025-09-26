@@ -1,8 +1,9 @@
 import re
+from utils import lenght
 
 try:
     binary = str(input('Binaire ?'))
-    puissance = len(binary) - 1
+    puissance = lenght(binary) - 1
     decimal = 0
     pattern = r'^[01]+$'
 

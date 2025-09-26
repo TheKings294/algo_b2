@@ -1,9 +1,11 @@
+from utils import append
+
 watingList = []
 start = 1
 
 
 def addPoeple(name):
-    watingList.append(name)
+    append(watingList, name)
 
 def removePoeple(name):
     if name in watingList:

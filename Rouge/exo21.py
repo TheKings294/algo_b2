@@ -1,3 +1,5 @@
+from utils import lenght
+
 try:
     word = str(input('Word: '))
 
@@ -8,7 +10,7 @@ try:
     reverseWord = word[::-1]
     staus = 0
 
-    for i in range(len(reverseWord)):
+    for i in range(lenght(reverseWord)):
         if reverseWord[i] == word[i]:
             staus = 1
         else:
